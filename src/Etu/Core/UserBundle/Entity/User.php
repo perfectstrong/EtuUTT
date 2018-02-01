@@ -615,6 +615,7 @@ class User implements UserInterface, EquatableInterface, \Serializable
         $this->lastVisitHome = new \DateTime();
         $this->createdAt = new \DateTime();
         $this->firstLogin = false;
+        $this->daymail = false;
     }
 
     public function __toString()
